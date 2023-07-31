@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .topright{
+            position: absolute;
+            background-image: url(1.jpg);
+            background-repeat: no-repeat, repeat;
+            
+
+        }
+        .buttomright{
+            position: absolute;
+            background-image: url(2.jpg);
+            background-repeat: no-repeat, repeat;
+            
+
+        }
+        
+        .topleft{
+            position: absolute;
+            background-image: url(3.jpg);
+            background-repeat: no-repeat, repeat;
+            
+        }
+        .botomleft{
+            position: absolute;
+            background-image: url(4.jpg);
+            background-repeat: no-repeat, repeat;
+            
+        }
+        
+        
+    </style>
+   <title>Frame into 4 parts</title>
+</head>
+   <frameset rowsbuttomright="50%, 50% " cols="50%,50%">
+    <frame src = "f1.html"  name = "frame1">
+        <frame src = "f2.html" name = "frame2">
+        <frame src = "f3.html" name = "frame3">
+        <frame src = "f4.html" name = "frame4">
+<body>
+    <div class="topright"></div>
+    <div class="bottomleft"></div>
+    <div class="topleft"></div>
+    <div class="bottomleft"></div>
+</body>
+</html>
